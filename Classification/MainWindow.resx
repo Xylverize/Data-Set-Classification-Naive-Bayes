@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="training_openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="testing_openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>217, 18</value>
+  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>=== Classifier model ===
+
+                                      Class
+Attribute   (y)          no         yes
+                            (0.87)     (0.13)
+======================================
+  age
+  mean                40.869   41.6761
+  std. dev.          10.3218   13.6024
+  weight sum         32020        4215
+  precision           1.0267       1.0267
+
+job
+  management       6600.0       1024.0
+  technician            5382.0         659.0
+  entrepreneur        1075.0           92.0
+  unknown                206.0           28.0
+  retired                   1402.0         413.0
+  admin.                  3652.0         513.0
+  services                 3052.0         311.0
+  blue-collar            7234.0         579.0
+  self-employed       1117.0         149.0
+  unemployed          892.0          157.0
+  housemaid             891.0           86.0
+  student                    529.0        216.0
+  [total]                   32032.0      4227.0
+
+marital
+  married                19648.0     2209.0
+  single                     8694.0     1511.0
+  divorced                3681.0       498.0
+  [total]                   32023.0     4218.0
+
+education
+  tertiary                     9079.0     1566.0
+  secondary             16656.0      1967.0
+  unknown                1280.0        207.0
+  primary                   5009.0        479.0
+  [total]                    32024.0      4219.0
+
+default
+  no                          31407.0     4172.0
+  yes                             615.0         45.0
+  [total]                      32022.0     4217.0
+
+balance
+  mean                 1311.6123    1813.6324
+  std. dev.            3000.0017    3588.8119
+  weight sum               32020             4215
+  precision               16.5808        16.5808
+
+housing
+  yes                18604.0    1560.0
+  no                 13418.0    2657.0
+  [total]             32022.0    4217.0
+
+loan
+  no                  26649.0    3829.0
+  yes                   5373.0      388.0
+  [total]              32022.0    4217.0
+
+contact
+  unknown       10016.0      450.0
+  cellular           19982.0    3445.0
+  telephone        2025.0      323.0
+  [total]               32023.0    4218.0
+
+day
+  mean                15.8996   15.1113
+  std. dev.             8.2988     8.5043
+  weight sum         32020        4215
+  precision                     1              1
+
+month
+  may                10327.0      752.0
+  jun                    3849.0      434.0
+  jul                     5046.0      516.0
+  aug                   4446.0      543.0
+  oct                      339.0      256.0
+  nov                   2878.0      314.0
+  dec                        88.0       79.0
+  jan                     1002.0     115.0
+  feb                     1739.0     347.0
+  mar                      182.0     198.0
+  apr                     1880.0     457.0
+  sep                       256.0     216.0
+  [total]              32032.0    4227.0
+
+duration
+  mean                 221.2749    539.1255
+  std. dev.            208.3658    393.4011
+  weight sum             32020           4215
+  precision               3.2743        3.2743
+
+campaign
+  mean                2.7966         2.16
+  std. dev.            3.1843    1.9379
+  weight sum         32020       4215
+  precision           1.3778    1.3778
+
+pdays
+  mean                  35.7863       68.3764
+  std. dev.              96.8771     118.3129
+  weight sum             32020            4215
+  precision                 1.636           1.636
+
+previous
+  mean                    0.3664       0.8962
+  std. dev.                 2.469       2.8053
+  weight sum          32020          4215
+  precision              7.2368       7.2368
+
+poutcome
+  unknown              26943.0    2689.0
+  failure                      3441.0      489.0
+  other                        1220.0      253.0
+  success                     420.0      788.0
+  [total]                     32024.0    4219.0</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>37</value>
+  </metadata>
+</root>
